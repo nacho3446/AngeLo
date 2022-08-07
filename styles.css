@@ -20,7 +20,7 @@
 /* nav */
 .title h1{
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     color: rgba(0, 0, 0, 0.795);
 }
 header{
@@ -40,7 +40,7 @@ header{
     position: relative;
 }
 .fa-solid.fa-bars{
-    font-size: 22px;
+    font-size: 26px;
 }
 .menu{
     list-style: none;
