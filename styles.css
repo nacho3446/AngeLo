@@ -1,0 +1,180 @@
+
+@media (max-width:768px){
+    p{
+        font-family: Helvetica, arial, sans-serif;
+        font-size: 20px;
+        color: #696969;
+        text-align: left;
+        word-spacing: 5px;
+    }
+    li{
+        font-family: Helvetica, arial, sans-serif;
+        font-size: 18px;
+        color: #696969;
+        text-align: left;
+        word-spacing: 5px;
+    }
+/* nav */
+.title h1{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.795);
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.navbar-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+/* menu hamburguesa */
+#menu-hamburguesa{
+    display: none;
+    position: relative;
+}
+.fa-solid.fa-bars{
+    font-size: 22px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 40%;
+}
+.menu a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.795);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#menu-hamburguesa:checked+.menu{
+    height: 100vh;
+    top: 70%;
+    transition: 1s;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+#menu-hamburguesa:not(:checked)+.menu{
+    top: -200%;
+    transition: 1s;
+}
+/* finished nav */
+
+
+/* section 1 */
+.s1-box{
+    text-align: center;
+}
+.s1-box img{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.subtitle{
+    width: 80%;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #549cacbd;
+    color: #f27eb4;
+    margin-bottom: 3rem;
+    
+}
+.subtitle h2{
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+/* finished section 1 */
+
+
+/* intro */
+
+.intro{
+    text-align: center;
+}
+
+.intro h3{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+}
+/* finished intro */
+
+
+/* service 1 */
+
+.service-1 h4:nth-child(1){
+    width: 80%;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #549cacbd;
+    color: #f27eb4;
+    margin-bottom: 3rem;
+    font-size: 28px;
+    
+}
+
+/* finished service 1 */
+
+
+/* service 2 */
+.service-2 h4:nth-child(1){
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: underline;
+}
+/* finished service 2 */
+
+
+
+/* CATS SECTION */
+.cats-services h3:nth-child(1){
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+}
+/* finished cats section */
+
+
+/* membership */
+.membership h3:nth-child(1){
+    width: 80%;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #549cacbd;
+    color: #f27eb4;
+    margin-bottom: 3rem;
+    font-size: 28px;
+}
+.membership .appointment{
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+/* finished membership */
+}
