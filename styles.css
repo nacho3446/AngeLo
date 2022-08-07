@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Cinzel&family=EB+Garamond&family=Edu+SA+Beginner&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Mouse+Memoirs&family=Nanum+Gothic&family=Noto+Sans&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&family=Prompt&family=Rajdhani:wght@300&family=Raleway:wght@100;200&family=Splash&family=Ubuntu:wght@300&display=swap');
 @media (max-width:768px){
     p{
         font-family: Helvetica, arial, sans-serif;
@@ -17,9 +17,23 @@
     html {
         scroll-behavior: smooth;
       }
+
+
+
+/* whatsapp icon */
+.whatsapp{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.whatsapp img{
+    width: 65px;
+}
+
 /* nav */
 .title h1{
-    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-family: Mouse Memoirs;
     font-size: 26px;
     color: rgba(0, 0, 0, 0.795);
 }
@@ -58,7 +72,6 @@ header{
     color: rgba(0, 0, 0, 0.795);
     font-family: sans-serif;
     font-size: 20px;
-    text-decoration: underline;
 }
 #menu-hamburguesa:checked+.menu{
     height: 100vh;
@@ -69,7 +82,7 @@ header{
     opacity: 1;
 }
 #menu-hamburguesa:not(:checked)+.menu{
-    top: -200%;
+    top: -180%;
     transition: 1s;
 }
 /* finished nav */
@@ -250,6 +263,9 @@ header{
 /* map */
 .map{
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* finished map */
 }
