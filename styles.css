@@ -14,6 +14,9 @@
         text-align: left;
         word-spacing: 5px;
     }
+    html {
+        scroll-behavior: smooth;
+      }
 /* nav */
 .title h1{
     font-family: sans-serif;
@@ -117,13 +120,16 @@ header{
 
 
 /* service 1 */
-
+.service-1{
+    margin-top: 3rem;
+}
 .service-1 h4:nth-child(1){
     width: 80%;
     border-radius: 3rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 80px;
     background-color: #549cacbd;
     color: #f27eb4;
@@ -131,7 +137,12 @@ header{
     font-size: 28px;
     
 }
-
+.service-1 h4:nth-child(2){
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+}
 /* finished service 1 */
 
 
@@ -156,20 +167,48 @@ header{
 /* finished cats section */
 
 
-/* membership */
-.membership h3:nth-child(1){
+/* jobs */
+#jobs h3:nth-child(1){
     width: 80%;
     border-radius: 3rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #549cacbd;
+    color: #f27eb4;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    
+}
+.jobs-img img{ 
+    width: 100%;
+}
+
+
+
+
+
+/* membership */
+#membership{
+    margin-top: 3rem;
+}
+#membership h3:nth-child(1){
+    width: 80%;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     background-color: #549cacbd;
     color: #f27eb4;
     margin-bottom: 3rem;
     font-size: 28px;
 }
-.membership .appointment{
+#membership .appointment{
     font-size: 23px;
     font-weight: 800;
     text-align: center;
@@ -177,4 +216,20 @@ header{
     padding-bottom: 1rem;
 }
 /* finished membership */
+
+
+/* contact */
+.contact h3{
+    width: 80%;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #549cacbd;
+    color: #f27eb4;
+    margin-bottom: 3rem;
+    font-size: 28px;
+}
 }
