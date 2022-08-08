@@ -265,8 +265,9 @@ header{
 
 
 /* map */
-.map{
+.map iframe{
     width: 100%;
+
 }
 
 /* finished map */
