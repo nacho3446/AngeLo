@@ -83,8 +83,7 @@ header{
     opacity: 1;
 }
 #menu-hamburguesa:not(:checked)+.menu{
-    opacity: 0;
-    top: -180%;
+    top: -500%;
     transition: 1s;
 }
 /* finished nav */
