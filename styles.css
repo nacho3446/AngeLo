@@ -107,7 +107,7 @@ header{
     justify-content: center;
     height: 80px;
     background-color: #549cacbd;
-    color: #f27eb4;
+    color: black;
     margin-bottom: 3rem;
     
 }
@@ -147,7 +147,7 @@ header{
     align-items: center;
     height: 80px;
     background-color: #549cacbd;
-    color: #f27eb4;
+    color: black;
     margin-bottom: 3rem;
     font-size: 28px;
     
@@ -192,7 +192,7 @@ header{
     align-items: center;
     height: 80px;
     background-color: #549cacbd;
-    color: #f27eb4;
+    color: black;
     margin-top: 3rem;
     margin-bottom: 1rem;
     font-size: 28px;
@@ -219,7 +219,7 @@ header{
     align-items: center;
     height: 80px;
     background-color: #549cacbd;
-    color: #f27eb4;
+    color: black;
     margin-bottom: 3rem;
     font-size: 28px;
 }
@@ -243,7 +243,7 @@ header{
     align-items: center;
     height: 80px;
     background-color: #549cacbd;
-    color: #f27eb4;
+    color: black;
     margin-bottom: 3rem;
     font-size: 28px;
 }
